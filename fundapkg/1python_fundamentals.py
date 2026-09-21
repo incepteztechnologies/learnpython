@@ -361,6 +361,11 @@ if (True and True) or True or False:
 #BODMAS (Brackets, Orders (power/exponents), Division/Multiplication, Add/Sub)
 a=10+3*5**2/5-3
 
+#Other operators in python (unary, binary, ternary)
+abc=-10#unary with symbol( single operator) added in a value
+x= abc * b #binary with operator inbetween 2 variables
+print("hello") if a<b else print("hi")#Ternary more than 2 operations using conditional
+# structure without following traditional python indendation
 
 
 
