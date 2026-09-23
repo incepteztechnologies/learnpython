@@ -42,32 +42,3 @@ print(type(aspirants_cnt))
 #print("This will not execute",name_and_cnt)
 
 
-#E. Datatypes in Python
-#1. Simple Types - str, number(int,float,complex number)
-#String Type: Indexed Sequenced
-
-#Below string is indexed for eg: I=0, r=1, f=2....
-name:str="Irfan"#:str is just a hint, it is not a type definition
-print(type(name))#To understand the type of a variable, we use type function
-#How to evaluate a given variable is of an expected type? isinstance()
-print(isinstance(name,str))
-
-#str - String is a sequence type (a type than can be looped/iterated using index).
-print(name[0])#print first element of the string
-for idx in name:
-    print(idx)#print the each character in sequence
-
-#number type: Not a sequnce type
-#int - Integer type will hold whole number without decimal., Integer is not sequence type
-age=44
-print(type(age))
-print(isinstance(age,int))
-
-#float - Float type will hold decimal values
-height=5.11
-print(type(height))
-print(isinstance(height,float))
-
-#2. Collection/Complex Types
-#3. Misc Types: bytes, bool, None
-#boolean type : True/False
